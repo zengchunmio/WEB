@@ -32,7 +32,7 @@ public class FirstTestNGTestTest {
   @BeforeClass
   public void beforeClass() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "G:/software/chromedriver.exe");
-		WebDriver driver=new ChromeDriver();
+		driver=new ChromeDriver();
 		
 		Thread.sleep(2000);
 		
