@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="case1(failed)">
+    <classes>
+      <class name="com.guoyasoft.FirstTestNGTestTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.guoyasoft.FirstTestNGTestTest -->
+      <class name="com.guoyasoft.FirstTestNG">
+        <methods>
+          <include name="quitChrome"/>
+          <include name="openChrome"/>
+        </methods>
+      </class> <!-- com.guoyasoft.FirstTestNG -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

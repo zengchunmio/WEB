@@ -13,7 +13,7 @@ public class selenium {
 		
 		Thread.sleep(2000);
 		
-		driver.get("http://127.0.0.1:8080/WEB/MyHtml.html");
+		driver.get("http://127.0.0.1:8081/WEB/MyHtml.html");
 		
 		Thread.sleep(2000);
 		
